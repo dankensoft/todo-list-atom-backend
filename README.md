@@ -1,4 +1,4 @@
-# Firebase Tasks API
+# Backend Atom Lista de Tareas
 
 Una API RESTful para la gestión de tareas, construida con: 
 **Node.js**, 
@@ -34,13 +34,13 @@ Incluye pruebas unitarias con **Jest** y **Supertest**.
 
 1. Clona el repositorio:
 
-```bash
+bash:
 git clone https://github.com/dankensoft/backend-atom-todo-list.git
 cd backend-atom-todo-list
 
 2. Instala Dependencias:
 
-```bash
+bash:
 npm install
 
 3. Crea el archivo de credenciales de Firebase:
@@ -50,28 +50,28 @@ Coloca tu archivo firebase-service-account.json dentro de la carpeta config/.
 4. Ejecución del Proyecto:
 - Modo Desarrollo:
 
-```bash
+bash:
 npm run dev
 
 5. Compilar a Javascript:
 
-```bash
+bash:
 npm run build
 
 6. Ejecutar en producción:
 
-```bash
+bash:
 npm start
 
 7. Pruebas Unitarias con Jest:
 
-```bash
+bash:
 npx jest
 
 Ó correr test individuales:
 
-```bash
-npx jest
+bash:
+npx jest <nombre_archivo.test.ts>
 
 ## Endpoints
 | Método | Ruta            | Descripción             |
